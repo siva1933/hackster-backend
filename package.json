@@ -1,0 +1,23 @@
+{
+  "name": "hackster-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js MONGO_PASSWORD=C26qgYsY6Akb7QR MONGO_USER=siva_1933 MONGO_DB=hacksters",
+    "start:dev": "nodemon app.js MONGO_PASSWORD=C26qgYsY6Akb7QR MONGO_USER=siva_1933 MONGO_DB=hacksters ",
+    "start-server": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.7"
+  }
+}
